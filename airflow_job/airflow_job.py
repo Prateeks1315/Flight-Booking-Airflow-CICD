@@ -68,9 +68,9 @@ with DAG(
         },
         "environment_config": {
             "execution_config": {
-                "service_account": "70622048644-compute@developer.gserviceaccount.com",
-                "network_uri": "projects/psyched-service-442305-q1/global/networks/default",
-                "subnetwork_uri": "projects/psyched-service-442305-q1/regions/us-central1/subnetworks/default",
+                "service_account": "1093218387397-compute@developer.gserviceaccount.com",
+                "network_uri": "projects/vigilant-axis-460418-c4/global/networks/default",
+                "subnetwork_uri": "projects/vigilant-axis-460418-c4/regions/us-central1/subnetworks/default",
             }
         },
     }
@@ -79,7 +79,7 @@ with DAG(
         task_id="run_spark_job_on_dataproc_serverless",
         batch=batch_details,
         batch_id=batch_id,
-        project_id="psyched-service-442305-q1",
+        project_id="vigilant-axis-460418-c4",
         region="us-central1",
         gcp_conn_id="google_cloud_default",
     )
