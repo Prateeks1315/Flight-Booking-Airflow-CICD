@@ -77,7 +77,7 @@ jobs:
       # Upload `variables.json` to Composer bucket
       - name: Upload Variables JSON to GCS
         run: |
-          gsutil cp variables/prod/variables.json gs://us-central1-airflow-prod-5fd790a9-bucket/data/prod/variables.json
+         gsutil cp variables/prod/variables.json gs://us-central1-airflow-test-e7feae52-bucket/data/prod/variables.json
 
       # Import Variables into Airflow-PROD
       - name: Import Variables into Airflow-PROD
