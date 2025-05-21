@@ -25,7 +25,7 @@ with DAG(
     # Fetch Airflow Variables
     env = Variable.get("env", default_var="dev")
     gcs_bucket = Variable.get("gcs_bucket", default_var="airflow-projetcs-gds")
-    bq_project = Variable.get("bq_project", default_var="psyched-service-442305-q1")
+    bq_project = Variable.get("bq_project", default_var="vigilant-axis-460418-c4")
     bq_dataset = Variable.get("bq_dataset", default_var=f"flight_data_{env}")
     tables = Variable.get("tables", deserialize_json=True)
 
