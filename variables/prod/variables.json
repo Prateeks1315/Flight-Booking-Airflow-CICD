@@ -1,7 +1,7 @@
 {
     "env": "prod",
-    "gcs_bucket": "airflow-projetcs-gds",
-    "bq_project": "psyched-service-442305-q1",
+    "gcs_bucket": "airflow-projects-gds",
+    "bq_project": "vigilant-axis-460418-c4",
     "bq_dataset": "flight_data_prod",
     "tables": {
       "transformed_table": "transformed_flight_data_prod",
